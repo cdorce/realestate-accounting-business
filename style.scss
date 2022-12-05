@@ -5,7 +5,7 @@ $primary-font:'Roboto';
 $secondary-font:'Open Sans';
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: $primary-font;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
