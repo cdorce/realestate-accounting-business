@@ -30,4 +30,7 @@
 }
 .navigation li a {
   text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
 }/*# sourceMappingURL=style.css.map */
