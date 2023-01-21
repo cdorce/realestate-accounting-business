@@ -28,19 +28,34 @@
 
     --color-dark-100:rgba(41, 33, 33, 1);
     --color-dark-75:rgba(41, 33, 33, 0.75);
-    --color-dark-50:rgba(41, 33, 33, 0.5);
+    --color-dark-50:rgba(41, 33, 33, 0.50);
     --color-dark-25:rgba(41, 33, 33, 0.25);
 
-    --color-white-100:rgba(255,255,255,1);
-    --color-white-75:rgba(255,255,255,1);
-    --color-white-50:rgba(255,255,255,1);
-    --color-white-25:rgba(255,255,255,1);
+    --color-white-100:rgba(255, 255, 255, 1);
+    --color-white-75:rgba(255, 255, 255, 0.75);
+    --color-white-50:rgba(255, 255, 255, 0.50);
+    --color-white-25:rgba(255, 255, 255, 0.25);
 
     --color-blue-100:rgba(0, 140, 255, 1);
     --color-blue-75:rgba(0, 140, 255, 0.75);
-    --color-blue-50:rgba(0, 140, 255, 0.5 );
+    --color-blue-50:rgba(0, 140, 255, 0.50);
     --color-blue-25:rgba(0, 140, 255, 0.25);
 }
+
+
+/**
+
+* ! Remove default style to the browser
+
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Padding and margin will be added within the screen size*/
+}
+
+
 
 /**
 
@@ -48,7 +63,55 @@
 
 **/
 
-.white-btn{
+.white-btn,
+.dark-btn{
+    color: var(--color-dark-100);
+    background-color: var(--color-white-100);
+    cursor: pointer;
+    font-size: var(--h5);
+    font-family: var(--font-2);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
 
-    
+}
+
+
+.dark-btn {
+    color:var(--color-white-100);
+    background-color: var(--color-dark-100);
+}
+
+
+/**
+
+* ! Style rules for text colors
+
+**/
+
+.text-white {
+    color: var(--color-white-100);
+}
+
+.text-dark {
+    color: var(--color-dark-100);
+}
+
+.text-blue {
+
+    color: var(--color-blue-100);
+}
+
+/**
+
+* ! Style rules for labels
+
+**/
+
+.label {
+    font-family: var(--font-2);
+    font-size: var(--label);
+    letter-spacing: var(--ls);
+    text-transform: uppercase;
+    font-weight: 700;
 }
