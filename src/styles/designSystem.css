@@ -162,6 +162,8 @@
     text-decoration: none;
 }
 
+
+
 /**
 
 * ! Style rules for common classes
@@ -173,7 +175,9 @@
     margin: auto;
 }
 
-
+.navbar__icons {
+    display: none;
+}
 
 /**
 
@@ -213,6 +217,15 @@
     .navbar__menu {
         display: none;
     }
+
+    .navbar__icons {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+    
     
 }
 
@@ -224,5 +237,7 @@
     .container {
         max-width: 90%;
     }
+
+
     
 }
