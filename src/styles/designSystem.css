@@ -170,11 +170,42 @@
 * ! Style rules for common classes
 
 **/
-
+.text-center {
+    text-align: center;
+}
 .container {
     max-width: 1140px;
     width: 90%;
     margin: auto;
+    
+}
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 0;
+    gap: 45px;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.common-title {
+
+    text-transform: capitalize;
+    font-size: var(--h1);
+    font-weight: bold;
+    font-family: var(--font-1);
+
 }
 
 .hamburger{
