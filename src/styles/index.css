@@ -46,10 +46,10 @@
     justify-self: center;
 }
 
+
 /**
 *! Style rules for sectionThree
 */
-
 
 .sectionThree__right--text {
     color: var(--color-dark-50);
@@ -59,4 +59,23 @@
 
 .sectionThree__right--btn {
     align-self: start;
+}
+
+
+/**
+*! Style rules for sectionFour
+*/
+
+
+.sectionFour__left--text {
+
+    color: var(--color-dark-50);
+    font-family: var(--font-2);
+    font-size: var(--body);
+
+}
+
+.sectionFour__left--btn{
+    align-self: start;
+
 }
