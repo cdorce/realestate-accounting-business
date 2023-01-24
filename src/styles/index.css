@@ -90,3 +90,15 @@
     font-family: var(--font-2);
 
 }
+
+
+[class^="sectionFive__cards"] img {
+    width: 100px;
+    clip-path: circle();
+}
+
+
+/*
+.sectionFive__cards img {
+    width: 100px;
+}*/
