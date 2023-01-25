@@ -229,6 +229,39 @@
 }
 
 
+/** 
+*! Style for Footer section
+*/
+
+.footerWrapper {
+    background-color: var(--color-blue-75);
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footerLinks__socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footerLinks__socials img {
+    width: 25px;
+    
+}
+
+
+.footerLinks__copyright {
+    font-size: var(--sub);
+    font-family: var(--font-2);
+
+}
+
+
+
 /**
 
 * ! Style rules for responsive (Media Queries)
@@ -320,9 +353,12 @@
 
 @media (max-width:568px) {
 
+    .footerLinks {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
 
-
-
-    
+  
 }
 
