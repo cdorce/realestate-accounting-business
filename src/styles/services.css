@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    display: grid;
+
+}
+
+.hero {
+    align-self: start;
+}
+
+.footerWrapper {
+    align-self: end;
+}
+
+.sectionOne__content--text {
+    font-size: var(--sub);
+    font-family: var(--font-2);
+}
+
+
+.icon-check {
+    width: 20px;
+}
