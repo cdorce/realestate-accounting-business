@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    display: grid;
+
+}
+
+.hero {
+    align-self: start;
+}
+
+.footerWrapper {
+    align-self: end;
+}
+
+
+.text {
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+
+
+.sectionOne {
+    margin-top: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+
+input , textarea {
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1.5px solid #212529;
+    border-radius: 3px;
+    background-color: #eeeeee;
+}
+
+.dark-btn {
+    margin-top: 10px;
+}
